@@ -1,0 +1,25 @@
+
+7. GUID a konstruktorban csak aholvan guid prop
+10. nullable dateTime prop-ok
+11. algebra a context-be ???
+12 ős osztályok!!! nem kell a preproc
+13 namespacek! beadottinfo.Algebra/Final/PreProcessed.Class
+14 saját nuGet
+15 ne minden metódus hozzon létre contextet hnem az osztálynak legyen egy
+16 setObject -> .Object = 
+17 copy local = false dll hozzárendeléseknél 
+
+18 vezesd ki app.config paraméterbe lszi' !
+illetve majd úgy kellene (de akkor ez legyen backlog), hogy amit nem adunk meg commandline-ban azt az app.config-ból vegye.
+így akkor majd akár paraméter nélkül is lehet indítani.
+
+19 előbb utóbb mindenkinek őse lesz az ac4y, ott ezt majd kezeljük.
+backlog-ba pedig írd be, hogy perzisztens annotáció nélkül nem is generálódik ef csomag.
+keress majd hozzá egy releváns annotációt vagy csinálj egy újat, milyen jó, hogy ezt egyszer már kitúrtad ...
+
+20 rakjunk annotációt ahhoz is, hogy generáljunk-e egyátalán.
+mert így pl. a Program - és egyéb nem kívánt - osztályokat kiszórhajtuk (backlog. írd meg nehéz lesz utólag kimazsolázni).
+
+21 ok, azóta raktam bele. backlog: a template-eket is szeparáld lszi' folderekbe. 
+
+22 ősosztály propjai ne generálódjanak
